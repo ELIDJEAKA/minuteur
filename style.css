@@ -10,21 +10,21 @@ div {
 #date_heure {
     font-family: digital;
     font-weight: bold;
-    font-size: 10em;
+    font-size: 14em;
     text-align: center;
     color: green;
     border: 10px dashed green;
     min-height: 50%;
-    padding:2.5%;
+    padding:1%;
 }
 
 #minuteur {
     font-family: digital;
     font-weight: bold;
-    font-size: 10em;
+    font-size: 12em;
     color: orangered;
     text-align: center;
     border: 10px dashed orangered;
     min-height: 50%;
-    padding:2.1%;
+    padding:1%;
 }
