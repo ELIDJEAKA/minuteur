@@ -53,6 +53,7 @@ function date_minuteur(id)
                 s = "0"+s;
         }
         // resultat = h+':'+m+':'+s;
+        zero = '0'+0;
         minuteur = 60 - s;
         if (minuteur == 60){
                 minuteur ='GO ' +'00'+' GO';
@@ -62,7 +63,7 @@ function date_minuteur(id)
         else if((minuteur>50) && (minuteur<=60)) {
                 minuteur = 'GO';
         }
-        else if ((minuteur == '00') || (minuteur == 0)) {
+        else if ((minuteur == '00') || (minuteur == 0) || (minuteur == zero)) {
              minuteur = 'GO ' + minuteur + ' GO';
         }
         else if((minuteur>30)&&(minuteur<=50))
