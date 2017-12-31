@@ -58,8 +58,9 @@ function date_minuteur(id)
                 minuteur = '00';
         }else if(minuteur<10) {
               minuteur = '0' + minuteur
-        }else{
-                minuteur = 60 - s;
+        }
+        else if(minuteur > 30) {
+                minuteur = '0' + minuteur - 30;
         }
         document.getElementById(id).innerHTML = minuteur;
         setTimeout('date_minuteur("' + id + '");', '1000');

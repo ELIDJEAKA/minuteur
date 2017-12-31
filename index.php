@@ -11,12 +11,18 @@
 </head>
 
 <body>
-<div id="date_heure" class="col-sm-12 col-md-12 col-xs-12 col-lg-12"></div>
-<div id="minuteur" class="col-sm-12 col-md-12 col-xs-12 col-lg-12"></div>
-    <script type="text/javascript">
-        window.onload = date_heure('date_heure');
-        window.onload = date_minuteur('minuteur');
-    </script>
+<div class="content" class="">
+    <div class="content-top" > 
+        <span id="date_heure" style="font-size:24em;"></span>
+    </div>
+    <div class="content-bottom">
+        <span id="minuteur" style="font-size:25em;"></span>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = date_heure('date_heure');
+    window.onload = date_minuteur('minuteur');
+</script>
 </body>
 
 </html>

@@ -3,28 +3,34 @@
     src: url(digital_italic.ttf);
 }
 
+body{
+    line-height: 0.75;
+}
+
 div {
     font-family: digital;
 }
 
-#date_heure {
+.content{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+   /* line-height:200px;*/
+}
+.content-top{
     font-family: digital;
     font-weight: bold;
-    font-size: 14em;
     text-align: center;
     color: green;
     border: 10px dashed green;
-    min-height: 50%;
-    padding:1%;
+    max-height: 50%;
 }
 
-#minuteur {
+.content-bottom {
     font-family: digital;
     font-weight: bold;
-    font-size: 12em;
     color: orangered;
     text-align: center;
     border: 10px dashed orangered;
     min-height: 50%;
-    padding:1%;
 }
