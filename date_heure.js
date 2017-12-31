@@ -55,12 +55,19 @@ function date_minuteur(id)
         // resultat = h+':'+m+':'+s;
         minuteur = 60 - s;
         if (minuteur == 60){
-                minuteur = '00';
-        }else if(minuteur<10) {
-              minuteur = '0' + minuteur
+                minuteur ='GO ' +'00'+' GO';
+        }else if((minuteur<10) && (minuteur>1)) {
+              minuteur = '0' + minuteur;
         }
-        else if(minuteur > 30) {
-                minuteur = '0' + minuteur - 30;
+        else if((minuteur>50) && (minuteur<=60)) {
+                minuteur = 'GO';
+        }
+        else if ((minuteur == '00') || (minuteur == 0)) {
+             minuteur = 'GO ' + minuteur + ' GO';
+        }
+        else if((minuteur>30)&&(minuteur<=50))
+        {
+                minuteur = 'PILOT';
         }
         document.getElementById(id).innerHTML = minuteur;
         setTimeout('date_minuteur("' + id + '");', '1000');
