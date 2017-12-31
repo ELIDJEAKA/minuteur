@@ -57,7 +57,7 @@ function date_minuteur(id)
         minuteur = 60 - s;
         if (minuteur == 60){
                 minuteur ='GO ' +'00'+' GO';
-        }else if((minuteur<10) && (minuteur>1)) {
+        }else if((minuteur<10) && (minuteur>=1)) {
               minuteur = '0' + minuteur;
         }
         else if((minuteur>50) && (minuteur<=60)) {
