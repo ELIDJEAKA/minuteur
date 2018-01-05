@@ -68,7 +68,7 @@ function date_minuteur(id)
         }
         else if((minuteur>30)&&(minuteur<=50))
         {
-                minuteur = 'NEXT PILOT';
+                minuteur = 'NEXT';
         }
         document.getElementById(id).innerHTML = minuteur;
         setTimeout('date_minuteur("' + id + '");', '1000');

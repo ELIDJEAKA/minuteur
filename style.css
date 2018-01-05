@@ -25,7 +25,7 @@ div {
     color: green;
     border: 10px dashed green;
     min-height: 50%;
-    padding: 1%;
+    padding: 3%;
 }
 
 .content-bottom {
@@ -35,5 +35,5 @@ div {
     text-align: center;
     border: 10px dashed orangered;
     min-height: 50%;
-    padding: 1%;
+    padding: 3%;
 }
