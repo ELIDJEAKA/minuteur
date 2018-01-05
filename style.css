@@ -13,6 +13,7 @@ div {
 
 .content {
     height: 100%;
+    width: 120%;
     margin: 0px;
     padding: 0px;
     /* line-height:200px;*/
@@ -26,6 +27,7 @@ div {
     border: 10px dashed green;
     min-height: 50%;
     padding: 3%;
+    min-width: 100%;
 }
 
 .content-bottom {
@@ -36,4 +38,5 @@ div {
     border: 10px dashed orangered;
     min-height: 50%;
     padding: 3%;
+    min-width: 100%;
 }
