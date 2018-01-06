@@ -14,7 +14,7 @@
 <body>
 <div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12" >
     <div class="content-top col-lg-12 col-md-12 col-sm-12 col-xs-12" > 
-        <span id="date_heure" style="font-size:24em;margin:1%;"></span>
+        <span id="date_heure" style="font-size:25em;margin:1%;"></span>
     </div>
     <div class="content-bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <span id="minuteur" style="font-size:22em;margin:1%;"></span>
