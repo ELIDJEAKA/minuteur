@@ -66,9 +66,13 @@ function date_minuteur(id)
         else if ((minuteur == '00') || (minuteur == 0) || (minuteur == zero)) {
              minuteur = 'GO ' + minuteur + ' GO';
         }
-        else if((minuteur>30)&&(minuteur<=50))
+        else if((minuteur>40)&&(minuteur<=50))
         {
-                minuteur = '<p style="font-size:200px;">SUIVANT/NEXT</p>';
+                minuteur = 'NEXT';
+        }
+        else if((minuteur>30)&&(minuteur<=40))
+        {
+                minuteur = 'SUIVANT';
         }
         document.getElementById(id).innerHTML = minuteur;
         setTimeout('date_minuteur("' + id + '");', '1000');

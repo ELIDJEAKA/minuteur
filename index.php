@@ -14,10 +14,10 @@
 <body>
 <div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12" >
     <div class="content-top col-lg-12 col-md-12 col-sm-12 col-xs-12" > 
-        <span class="da" id="date_heure" style="font-size:25em;margin-top:50%;"></span>
+        <span class="da" id="date_heure" style="font-size:25em;margin-top:50px;"></span>
     </div>
     <div class="content-bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <span id="minuteur" style="font-size:22em;margin-top:50%;"></span>
+        <span id="minuteur" style="font-size:22em;margin-top:50px;"></span>
     </div>
 </div>
 <script type="text/javascript">
