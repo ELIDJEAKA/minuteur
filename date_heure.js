@@ -68,10 +68,10 @@ function date_minuteur(id)
         }
         else if((minuteur>30)&&(minuteur<=50))
         {
-               if(minuteur%2 == 0) {
+               if(minuteur%3 == 0) {
 
                 minuteur = 'NEXT';
-                } else if(minuteur%2 !== 0) {
+                } else if(minuteur%3 !== 0) {
                         minuteur = 'SUIVANT';
                 }
         } 
